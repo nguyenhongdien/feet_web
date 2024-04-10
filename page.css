@@ -1,0 +1,62 @@
+body{
+	display: grid;
+}
+
+.page ul li{
+	
+	display: inline-block;
+	width: 20%;
+	background-color: #ffc454;
+	text-align: center;
+}
+
+.page ul li a{
+	font-size: 30px;
+	font-family: Anton, Arial;
+	text-decoration: none;
+	color: #000000;
+}
+
+.page ul li:hover{
+	display: inline-block;
+	width: 20%;
+	background-color: #ffe8bb;
+}
+
+.page ul{
+	background: #ffc454;
+}
+
+.feet_pic{
+	display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+}
+
+.feet_pic img{
+	width: 600px;
+	height: 400px;
+	border: solid 10px #ffc454;
+	margin: 40px;
+
+}
+
+h1{
+	font-family: Anton, Arial;
+	font-size: 100px;
+	text-align: center;
+	line-height: 200px;
+	background: url(../background.jpg);
+}
+
+footer{
+	background-color: #d5d5d5;
+}
+
+#skip{
+	transform: translateY(-150%);
+}
+
+#skip:focus{
+	transform: translateY(0);
+}
